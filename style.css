@@ -91,12 +91,12 @@ button {
 .game-box__item:hover {
   border: 3px solid #44D2FF;
 }
-.game-box__item-1 {
+.game-box__item:first-child {
   background-image: url("img/games/game_1.jpg");
 }
-.game-box__item-2 {
+.game-box__item:nth-child(2) {
   background-image: url("img/games/game_2.jpg");
 }
-.game-box__item-3 {
+.game-box__item:last-child {
   background-image: url("img/games/game_3.jpg");
 }/*# sourceMappingURL=style.css.map */
