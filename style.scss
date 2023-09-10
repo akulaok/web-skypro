@@ -97,15 +97,15 @@ button {
             border: 3px solid #44D2FF;
         }
 
-        &:first-child {
+        &-1 {
             background-image: url("img/games/game_1.jpg");
         }
 
-        &:nth-child(2) {
+        &-2 {
             background-image: url("img/games/game_2.jpg");
         }
 
-        &:last-child {
+        &-3 {
             background-image: url("img/games/game_3.jpg");
         }
     }
