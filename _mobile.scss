@@ -1,0 +1,33 @@
+@media (max-width: 767px) {
+
+    .centre {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header {
+        background-image: url("img/heder_bg_mbl.jpg");
+        padding-top: 238px;
+        padding-bottom: 238px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__title {
+            font-size: 32px;
+        }
+
+        &__text {
+            font-size: 14px;
+            font-style: normal;
+            line-height: 22px;
+            padding-bottom: 32px;
+            text-align: center;
+        }
+    }
+
+    .game-box{
+        justify-content: center;
+    }
+
+}

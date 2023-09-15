@@ -18,9 +18,8 @@ button {
 
 .header {
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
     background-size: cover;
-    height: 735px;
     background-image: url("img/header_bg.jpg");
     padding-top: 217px;
     padding-bottom: 493px;
@@ -70,6 +69,7 @@ button {
     gap: 32px;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 
     &__text{
         color: #FFF;
@@ -110,3 +110,5 @@ button {
         }
     }
 }
+
+@import 'mobile';

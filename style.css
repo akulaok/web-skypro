@@ -18,9 +18,8 @@ button {
 
 .header {
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
   background-size: cover;
-  height: 735px;
   background-image: url("img/header_bg.jpg");
   padding-top: 217px;
   padding-bottom: 493px;
@@ -66,6 +65,7 @@ button {
   gap: 32px;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .game-box__text {
   color: #FFF;
@@ -99,4 +99,32 @@ button {
 }
 .game-box__item-3 {
   background-image: url("img/games/game_3.jpg");
+}
+
+@media (max-width: 767px) {
+  .centre {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .header {
+    background-image: url("img/heder_bg_mbl.jpg");
+    padding-top: 238px;
+    padding-bottom: 238px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header__title {
+    font-size: 32px;
+  }
+  .header__text {
+    font-size: 14px;
+    font-style: normal;
+    line-height: 22px;
+    padding-bottom: 32px;
+    text-align: center;
+  }
+  .game-box {
+    justify-content: center;
+  }
 }/*# sourceMappingURL=style.css.map */
