@@ -18,7 +18,7 @@ let b = '3';
 // Код выше изменять менять нельзя, чтобы решить задачу исправьте код ниже: 
 alert(Number(a) + Number(b));
 // Задание 5
-let monthNumber = Number(prompt('Номер месяца?'));
+let monthNumber = prompt('Номер месяца?');
 switch (monthNumber) {
     case 1:
     case 2:
