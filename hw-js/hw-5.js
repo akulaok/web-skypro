@@ -35,8 +35,8 @@ let square = (a) => isNaN(a) ? 'Переданный параметр не яв�
 console.log(square(0));
 
 // Задание 7
-function getArea() {return  this.radius ** 2 * Math.PI}
-function getPerimeter() { return this.radius * 2 * Math.PI}
+function getArea() { return this.radius ** 2 * Math.PI }
+function getPerimeter() { return this.radius * 2 * Math.PI }
 
 let circle1 = {
     radius: 8,
@@ -50,4 +50,14 @@ let circle2 = {
     perimeter: getPerimeter
 }
 
-console.log (circle1.perimeter());
+console.log(circle1.perimeter());
+
+//Задание 8
+function seasonGame() {
+    let monthNumber = prompt('Номер месяца?');
+    if (monthNumber > 12 || monthNumber < 1) alert("Введите существующий номер");
+    else if (monthNumber == 1 || monthNumber == 2 || monthNumber == 12) alert("Этот месяц пренадлежит сезону зима");
+    else if (monthNumber == 3 || monthNumber == 4 || monthNumber == 5) alert("Этот месяц пренадлежит сезону весна");
+    else if (monthNumber == 6 || monthNumber == 7 || monthNumber == 8) alert("Этот месяц пренадлежит сезону лето");
+    else alert("Этот месяц пренадлежит сезону осень");
+}
