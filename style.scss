@@ -14,6 +14,37 @@ body {
 
 button {
     font-family: 'Montserrat', sans-serif;
+    border-radius: 30px;
+    background: #9C0332;
+    width: 234.063px;
+    height: 48.603px;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-color: transparent;
+    transition: all 0.3s;
+
+    &:hover {
+        background: #EB443F;
+    }
+
+}
+
+.text {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #FFF;
 }
 
 .header {
@@ -25,40 +56,15 @@ button {
     padding-bottom: 493px;
 
     &__title {
-        color: #FFF;
         font-size: 64px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
     }
 
     &__text {
-        color: #FFF;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 300;
-        line-height: 32px;
         padding-top: 32px;
         padding-bottom: 44px;
+        width: 481px;
     }
 
-    &__button {
-        border-radius: 30px;
-        background: #9C0332;
-        width: 234.063px;
-        height: 48.603px;
-        color: #FFF;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        border-color: transparent;
-        transition: all 0.3s;
-
-        &:hover{
-            background: #EB443F; 
-        }
-    }
 }
 
 .game-box {
@@ -71,7 +77,7 @@ button {
     justify-content: space-between;
     flex-wrap: wrap;
 
-    &__text{
+    &__text {
         color: #FFF;
         font-size: 24px;
         font-style: normal;
@@ -93,7 +99,7 @@ button {
         box-sizing: border-box;
         transition: all 0.3s;
 
-        &:hover{
+        &:hover {
             border: 3px solid #44D2FF;
         }
 
@@ -108,6 +114,30 @@ button {
         &-3 {
             background-image: url("img/games/game_3.jpg");
         }
+    }
+}
+
+.season-game{
+    display: flex;
+    background: #000915;
+    padding-top: 233px;
+    padding-bottom: 233px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    &_content{
+        margin-bottom: 64px;
+    }
+    &_title{
+        font-size: 48px;
+    }
+
+    &_text{
+        padding-top: 32px;
+        padding-bottom: 32px; 
+        width: 584px;
     }
 }
 
