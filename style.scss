@@ -103,15 +103,15 @@ button {
             border: 3px solid #44D2FF;
         }
 
-        &-1 {
+        &:first-child{
             background-image: url("img/games/game_1.jpg");
         }
 
-        &-2 {
+        &:nth-child(2) {
             background-image: url("img/games/game_2.jpg");
         }
 
-        &-3 {
+        &:last-child {
             background-image: url("img/games/game_3.jpg");
         }
     }
