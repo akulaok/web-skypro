@@ -6,19 +6,28 @@
     <title>Title</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="header centre">
-            <h1 class="header__title">Добро пожаловать<br>на мой сайт !</h1>
-            <p class="header__text">Вам предстоит пройти несколько увлекательных <br>игр. Если готов нажимай <strong>поехали</strong> и <strong>приступай</strong></p>
-            <button class="header__button">Поехали!</button>
+            <h1 class="title header__title">Добро пожаловать<br>на мой сайт !</h1>
+            <p class="header__text text">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <strong>поехали</strong> и <strong>приступай</strong></p>
+            <button class="button">Поехали!</button>
     </header>
     <section class="game-box centre">
-        <a class="game-box__item game-box__item-1"><span class="game-box__text">Игра 1</span></a>
-        <a class="game-box__item game-box__item-2"><span class="game-box__text">Игра 2</span></a>
-        <a class="game-box__item game-box__item-3"><span class="game-box__text">Игра 3</span></a>
+        <a class="game-box__item "><span class="game-box__text">Игра 1</span></a>
+        <a class="game-box__item "><span class="game-box__text">Игра 2</span></a>
+        <a class="game-box__item "><span class="game-box__text">Игра 3</span></a>
     </section>
+    <section class="season-game centre">
+        <div class="season-game_content">
+        <h1 class="title season-game_title">Времена года!</h1>
+        <p class="text season-game_text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
+        <button onclick="seasonGame()" class="button">Играть!</button>
+    </div>
+    <img class="season-game_img" src="img/season-game_img.png" alt="Картинка джойстика">
+    </section>
+    <script src="hw-js/hw-5.js"></script>
 </body>
 </html>

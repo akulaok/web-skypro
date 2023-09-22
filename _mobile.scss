@@ -1,0 +1,66 @@
+@media (max-width: 767px) {
+
+    .centre {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header {
+        background-image: url("img/heder_bg_mbl.jpg");
+        padding-top: 238px;
+        padding-bottom: 238px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__title {
+            font-size: 32px;
+            text-align: center;
+        }
+
+        &__text {
+            font-size: 14px;
+            font-style: normal;
+            line-height: 22px;
+            padding-bottom: 32px;
+            text-align: center;
+            width: 343px;
+        }
+    }
+
+    .game-box {
+        justify-content: center;
+    }
+
+    .season-game {
+        padding-top: 51px;
+        padding-bottom: 75px;
+        flex-direction: column;
+        align-items: center;
+
+        &_content{
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+        }
+
+        &_title {
+            font-size: 32px;
+            text-align: center;
+        }
+
+        &_text {
+            line-height: 22px;
+            font-size: 14px;
+            text-align: center;
+            width: 343px;
+        }
+
+        &_img {
+            width: 344px;
+            height: 236px;
+        }
+
+    }
+
+}
