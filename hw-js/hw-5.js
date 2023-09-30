@@ -1,4 +1,4 @@
-//Задание 1 
+/*Задание 1 
 let findMin = (a, b) => Math.min(a, b);
 console.log(findMin(2, 5));
 
@@ -15,7 +15,7 @@ let createSquare2 = (a) => a ** 2;
 console.log(createSquare2(8));
 
 //Задание 4
-/*function getUserAge() {
+function getUserAge() {
     let userAge = prompt('Сколько тебе лет?');
 
     if (userAge < 0) alert('Вы ввели неправильное значение');
@@ -24,17 +24,16 @@ console.log(createSquare2(8));
 }
 
 getUserAge();
-*/
 
 //Задание 5
 let mult = (a, b) => isNaN(a) || isNaN(b) ? 'Одно или оба значения не являются числом' : a * b;
 console.log(mult(3, 8));
 
-// Задание 6
+//Задание 6
 let square = (a) => isNaN(a) ? 'Переданный параметр не является числом' : `${a} в кубе равняется ${a ** 3}`;
 console.log(square(0));
 
-// Задание 7
+//Задание 7
 function getArea() { return this.radius ** 2 * Math.PI }
 function getPerimeter() { return this.radius * 2 * Math.PI }
 
@@ -51,7 +50,7 @@ let circle2 = {
 }
 
 console.log(circle1.perimeter());
-
+*/
 //Задание 8
 function seasonGame() {
     let monthNumber = prompt('Номер месяца?');
