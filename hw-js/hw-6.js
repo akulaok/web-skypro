@@ -52,7 +52,7 @@ var result = [].concat(arr[0], arr[1]);
 console.log(result);
 
 // Задание 10
-let randomMass = Array.from({ length: 15 }, () => Math.floor(Math.random() * 10));
+let randomMass = Array.from({ length: 15 }, () => Math.floor(Math.random() * 10) + 1 );
 console.log(randomMass);
 for (let i = 0; i < randomMass.length - 1; i++) console.log(randomMass[i] + randomMass[i + 1]);
 

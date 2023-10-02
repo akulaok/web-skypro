@@ -106,7 +106,7 @@ button:hover {
   background-image: url("img/games/game_3.jpg");
 }
 
-.season-game {
+.game {
   display: flex;
   background: #000915;
   padding-top: 233px;
@@ -116,19 +116,19 @@ button:hover {
   align-items: center;
   justify-content: space-between;
 }
-.season-game_content {
+.game_content {
   margin-bottom: 64px;
 }
-.season-game_title {
+.game_title {
   font-size: 48px;
 }
-.season-game_text {
+.game_text {
   padding-top: 32px;
   padding-bottom: 32px;
   width: 584px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .centre {
     padding-left: 16px;
     padding-right: 16px;
@@ -156,28 +156,28 @@ button:hover {
   .game-box {
     justify-content: center;
   }
-  .season-game {
+  .game {
     padding-top: 51px;
     padding-bottom: 75px;
     flex-direction: column;
     align-items: center;
   }
-  .season-game_content {
+  .game_content {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .season-game_title {
+  .game_title {
     font-size: 32px;
     text-align: center;
   }
-  .season-game_text {
+  .game_text {
     line-height: 22px;
     font-size: 14px;
     text-align: center;
     width: 343px;
   }
-  .season-game_img {
+  .game_img {
     width: 344px;
     height: 236px;
   }
