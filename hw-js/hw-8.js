@@ -13,7 +13,7 @@ function isPositive(number) {
     return number > 0;
 }
 function isMale(person) {
-    return person.gender == 'male';
+    return person.gender === 'male';
 
 }
 function filter(arr, ruleFunction) {
@@ -37,9 +37,7 @@ console.log(filter(people2, isMale)); // Должен выводить [{name: '
 
 //Задание 3
 const timer = (deadline) => {
-    let time = deadline;
     const interval = setInterval(() => {
-        time -= 1;
         console.log(new Date());
     }, 3000);
 
