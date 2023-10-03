@@ -1,4 +1,4 @@
-// Задание 1
+/*// Задание 1
 let jsStr = 'str';
 console.log(jsStr.toUpperCase());
 
@@ -54,7 +54,7 @@ function CreateBeautifulDate(date) {
     console.log(beautifulDate);
 }
 CreateBeautifulDate(currentDate);
-
+*/
 
 // Задание 11
 function RememberGame() {
